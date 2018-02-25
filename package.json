@@ -1,7 +1,7 @@
 {
   "name": "cryptofix",
   "version": "0.0.4",
-  "description": "I had to devise up universal builds for some cryptographic libraries... because of JavaScript post ES2015 apocalypse.",
+  "description": "I had to devise up universal builds for some cryptographic libraries... because of JavaScript post ES2015 Modules apocalypse.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,6 +28,7 @@
     "scryptsy": "^2.0.0"
   },
   "devDependencies": {
+    "browserify": "16.1.0",
     "rollup": "^0.50.0",
     "rollup-plugin-commonjs": "^8.2.6",
     "rollup-plugin-node-builtins": "^2.1.2",
