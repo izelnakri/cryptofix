@@ -2,7 +2,7 @@
   "name": "cryptofix",
   "version": "0.0.1",
   "description": "I had to devise up universal builds for some cryptographic libraries... because of JavaScript post ES2015 apocalypse.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/izelnakri/cryptofix/issues"
   },
-  "homepage": "https://github.com/izelnakri/cryptofix#readme"
+  "homepage": "https://github.com/izelnakri/cryptofix#readme",
+  "dependencies": {
+    "bip39": "^2.5.0",
+    "ethereumjs-wallet": "^0.6.0",
+    "node-forge": "^0.7.1",
+    "scryptsy": "^2.0.0"
+  },
+  "devDependencies": {
+    "rollup": "^0.50.0",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-virtual": "^1.0.1"
+  }
 }
