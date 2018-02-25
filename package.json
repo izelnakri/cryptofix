@@ -1,15 +1,10 @@
 {
   "name": "cryptofix",
-  "version": "0.0.4",
+  "version": "0.5.0",
   "description": "I had to devise up universal builds for some cryptographic libraries... because of JavaScript post ES2015 Modules apocalypse.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build:bip39": "rollup -i ./lib/bip39.js -o bip39.js -f cjs",
-    "build:ethereumjs-wallet": "rollup -i ./lib/ethereumjs-wallet.js -o ethereumjs-wallet.js -f cjs",
-    "build:forge": "rollup -i ./lib/forge.js -o forge.js -f cjs",
-    "build:scryptsy": "rollup -i ./lib/scryptsy.js -o scryptsy.js -f cjs",
-    "prepublish": "npm run build:bip39 && npm run build:ethereumjs-wallet && npm run build:forge && npm run build:scryptsy"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -29,6 +24,7 @@
   },
   "devDependencies": {
     "browserify": "16.1.0",
+    "mocha": "^5.0.1",
     "rollup": "^0.50.0",
     "rollup-plugin-commonjs": "^8.2.6",
     "rollup-plugin-node-builtins": "^2.1.2",

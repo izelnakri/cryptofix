@@ -1,9 +1,1 @@
-'use strict';
-
-var ethereumjsWallet = {
-  something() {
-    console.log('EthereumjsWallet works');
-  }
-};
-
-module.exports = ethereumjsWallet;
+module.exports = require('ethereumjs-wallet');
