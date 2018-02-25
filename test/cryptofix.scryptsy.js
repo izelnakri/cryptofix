@@ -1,8 +1,8 @@
 const assert = require('assert');
 
-describe('cryptofix/scrypt tests', function() {
+describe('cryptofix/scryptsy tests', function() {
   it('can hash correctly', function() {
-    const Scrypt = require(`${process.cwd()}/scrypt`);
+    const Scrypt = require(`${process.cwd()}/scryptsy`);
 
     assert.equal(
       Scrypt('asdasda', 'asdasd', 1, 0, 0, 64).toString('base64'),
