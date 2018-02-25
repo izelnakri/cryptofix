@@ -1,6 +1,6 @@
 {
   "name": "cryptofix",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "I had to devise up universal builds for some cryptographic libraries... because of JavaScript post ES2015 Modules apocalypse.",
   "main": "index.js",
   "scripts": {
@@ -23,13 +23,6 @@
     "scryptsy": "^2.0.0"
   },
   "devDependencies": {
-    "browserify": "16.1.0",
-    "mocha": "^5.0.1",
-    "rollup": "^0.50.0",
-    "rollup-plugin-commonjs": "^8.2.6",
-    "rollup-plugin-node-builtins": "^2.1.2",
-    "rollup-plugin-node-globals": "^1.1.0",
-    "rollup-plugin-node-resolve": "^3.0.0",
-    "rollup-plugin-virtual": "^1.0.1"
+    "mocha": "^5.0.1"
   }
 }
